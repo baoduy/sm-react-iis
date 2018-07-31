@@ -2,7 +2,7 @@
 
 The configuration to host React app on IIS.
 
-The `Web.config` file is for IIS hosting purpose. When build the application this file will be copied to dist folder automatically and make the package ready for IIS.
+The `Web.config` file is for IIS hosting purpose. After build the SAP application to the **dist** folder you can host them as a statis file in IIS by using this config file. This required the [url-rewrite](https://www.iis.net/downloads/microsoft/url-rewrite) to be installed on IIS server.
 
 However if you are not hosting this app in IIS just simply delete this file.or leave if there. There is no impact to the application.
 
